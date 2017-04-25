@@ -1,0 +1,125 @@
+.datepicker-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.datepicker-calendar {
+	font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #eee;
+	color: #333;
+	border: 1px solid #ddd;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 2px;
+	display: none;
+	position: absolute;
+    top: 100%;
+	left: 0;
+	z-index: 100;
+}
+
+.open .datepicker-calendar {
+    display: block;
+}
+
+.datepicker-calendar .datepicker-months {
+	background-color: #f6af3a;
+	border: 1px solid #e78f08;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #fff;
+	padding: 2px;
+	text-align: center;
+    font-size: 120%;
+}
+
+.datepicker-calendar .datepicker-prev-month,
+.datepicker-calendar .datepicker-next-month {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 .4em;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.datepicker-calendar .datepicker-prev-month {
+	float: left;
+}
+
+.datepicker-calendar .datepicker-next-month {
+	float: right;
+}
+
+.datepicker-calendar .datepicker-current-month {
+	padding: 0 .5em;
+}
+
+.datepicker-calendar .datepicker-prev-month:hover,
+.datepicker-calendar .datepicker-next-month:hover {
+	background-color: #fdf5ce;
+	color: #c77405;
+}
+
+.datepicker-calendar table {
+	border-collapse: collapse;
+	padding: 0;
+	width: 100%;
+}
+
+.datepicker-calendar thead {
+    font-size: 90%;
+}
+
+.datepicker-calendar th,
+.datepicker-calendar td {
+    width: 14.3%;
+}
+
+.datepicker-calendar th {
+	text-align: center;
+    padding: 5px;
+}
+
+.datepicker-calendar td {
+	text-align: right;
+	padding: 1px;
+}
+
+.datepicker-calendar .datepicker-day {
+	display: block;
+	color: #1c94c4;
+	background-color: #f6f6f6;
+	border: 1px solid #ccc;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.datepicker-calendar .datepicker-day:hover {
+	color: #C77405;
+	background-color: #fdf5ce;
+	border: 1px solid #fbcb09;
+}
+
+.datepicker-calendar .today .datepicker-day {
+	background-color: #fff0A5;
+	border: 1px solid #fed22f;
+	color: #363636;
+}
+
+.datepicker-calendar .selected .datepicker-day {
+	background-color: #1c94c4;
+	color: #f6f6f6;
+}
+
+.datepicker-calendar .disabled .datepicker-day,
+.datepicker-calendar .disabled .datepicker-day:hover {
+    background-color: #eee;
+    border: 1px dotted #ccc;
+    color: #bbb;
+    cursor: default;
+}

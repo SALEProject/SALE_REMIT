@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tfrm_ControlPanel>
+	<Name>frm_ControlPanel</Name>
+	<theme>bitnova</theme>
+	
+	<Caption>Control Panel</Caption>
+	<Left>64</Left>
+	<Top>64</Top>
+	<Width>304</Width>
+	<Height>320</Height>
+	<BorderStyle>bsDialog</BorderStyle>
+	<Position>poDesigned</Position>	
+	
+	<TPopupMenu>
+		<Name>pm</Name>
+		<TMenuItem>
+			<Name>pmItem1</Name>
+			<Caption>Item 1</Caption>
+			<OnClick>pmItem1OnClick</OnClick>
+		</TMenuItem>
+		<TMenuItem>
+			<Name>pmItem2</Name>
+			<Caption>Item 2</Caption>
+			<OnClick>pmItem2OnClick</OnClick>
+		</TMenuItem>
+		<TMenuItem>
+			<Name>pmItem3</Name>
+			<Caption>Item 3</Caption>
+			<OnClick>pmItem3OnClick</OnClick>
+		</TMenuItem>
+	</TPopupMenu>
+	
+	<TButton>
+		<Name>btn_pm</Name>
+		<Caption>Popup</Caption>
+		<Left>64</Left>
+		<Top>64</Top>
+		<Width>120</Width>
+		<Height>24</Height>
+		<PopupMenu>pm</PopupMenu>
+	</TButton>
+
+</Tfrm_ControlPanel>

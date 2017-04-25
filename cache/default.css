@@ -1,0 +1,472 @@
+
+input[type='button'].default_TButton
+{
+	background: url('bluegray_button.png') repeat-x 0px 0px;
+	height: 25px;
+	border-color: #a0a0ff;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+input[type='button'].default_TButton:hover
+{
+	background: url('bluegray_button.png') repeat-x 0px -23px;
+}
+	
+
+		ul.default_TPageControl
+		{
+			list-style: none;
+			min-width: 16px;
+		}
+		
+		ul.default_TPageControl li
+		{
+			display: inline-block;
+			background-color: #e8e8e8;
+			border: 1px solid white;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+		
+		ul.default_TPageControl li:hover
+		{
+			background-color: white;
+		}
+		
+		ul.default_TPageControl li.active
+		{
+			background-color: white;
+		}
+		
+		ul.default_TPageControl a
+		{
+			display: block;
+			min-width: 16px;
+			height: 24px;
+			padding-left: 4px;
+			padding-right: 4px;
+			padding-top: 8px;
+			text-decoration: none;
+		}
+		
+		
+		div.default_TPageControl
+		{
+		
+		}
+		
+		div.default_TTabSheet
+		{
+			display: none;
+			border: 1px solid white;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		
+input[type='button'].default_TFileUpload
+{
+	background: url('bluegray_button.png') repeat-x 0px 0px;
+	height: 25px;
+	width: 180px;
+	border-color: #a0a0ff;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+input[type='button'].default_TFileUpload:hover
+{
+	background: url('bluegray_button.png') repeat-x 0px -23px;
+}
+	
+
+
+div.default_TForm
+{
+	background-color: #dddddd;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #888888;	
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.default_TForm.morph
+{
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */	
+}
+
+div.default_TForm_modal
+{
+	background-color: #888888;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.default_TForm div.default_TForm_caption
+{
+	background-color: #ccccff;
+	height: 22px;
+	border-style: none;
+	border-top-color: white;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-left-color: white;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: white;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 0px 10px #888888;	
+	text-shadow: 0 0 3px #999999;
+}
+
+div.default_TForm a.default_TForm_close
+{
+	display: block;
+	position: absolute;
+	/*background-color: red;*/
+	background: -webkit-linear-gradient(darkorange, orangered);
+	background: -o-linear-gradient(darkorange, orangered);
+	background: -moz-linear-gradient(darkorange, orangered);
+	background: linear-gradient(darkorange, orangered);
+	right: 12px;
+	top: 0px;
+	width: 24px;
+	height: 16px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+div.default_TForm a.default_TForm_resize
+{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	/*border: 1px solid black;*/	
+	width: 16px;
+	height: 16px;
+}
+
+div.default_TForm a.default_TForm_close:hover
+{
+	opacity: 1;
+}
+
+div.default_TForm span.default_TForm_caption
+{
+	display: block;
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	font-weight: bold;
+	color: white;
+}
+			
+
+
+input[type='text'].default_TEdit
+{
+	border-color: #a0a0ff;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	
+}
+				
+
+
+
+
+div.default_TPanel
+{
+	background-color: #dddddd;
+	border: 1px solid white;
+	/*border-radius: 10px;*/
+	/*box-shadow: 0px 0px 10px #888888;*/
+	overflow: hidden;	
+}
+
+				
+
+
+
+
+div.default_TCustomGrid
+{
+}
+
+div.default_TCustomGrid table
+{
+	background-color: #c0c0c0;
+}
+
+div.default_TCustomGrid table tr
+{
+}
+				
+div.default_TCustomGrid table tr td
+{
+}
+				
+
+div.default_TCustomGrid
+{
+}
+
+div.default_TCustomGrid table
+{
+	background-color: #c0c0c0;
+}
+
+div.default_TCustomGrid table tr
+{
+}
+				
+div.default_TCustomGrid table tr td
+{
+}
+				
+
+
+
+div.bluegray_TSplitter
+{
+	background-color: #eeeeee;
+	width: 8px;
+	height: 100%;
+}
+				
+input[type='checkbox'].default_TCheckBox
+{
+}		
+
+span.default_TCheckBox_caption
+{
+}
+	
+
+
+div.bluegray_TGrid
+{
+	background-color: #dde;
+	overflow: scroll;
+}
+
+div.bluegray_TGrid table.bluegray_TGrid
+{
+	
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr.even
+{
+	background-color: #e8e8e8;	
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr.odd
+{
+	background-color: #eef;	
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr:hover
+{
+	background-color: ccd !important;	
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr.selected
+{
+	background-color: white !important;
+	color: black !important;
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr.selected:hover
+{
+	background-color: white !important;
+	color: black !important;
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr th.bluegray_TGrid
+{
+	background: -webkit-linear-gradient(#FFFFFF, #EEEEEE) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(#FFFFFF, #EEEEEE) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(#FFFFFF, #EEEEEE) repeat scroll 0 0 transparent;
+	background: linear-gradient(#FFFFFF, #EEEEEE) repeat scroll 0 0 transparent;
+/*background-color: #9999ff;
+	background: url('bluegray_bkgrnd_th.png') repeat-x;*/
+	color: gray;
+	font-size: 12px;
+	border-bottom: 1px solid #99a;
+	border-right: 1px solid #99a;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+div.bluegray_TGrid table.bluegray_TGrid tr td.bluegray_TGrid
+{
+	/*background-color: #ffffff;*/
+	color: black;
+	font-size: 12px;
+	border-bottom: 1px solid #99a;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
+
+textarea.default_TMemo
+{
+	border-color: #a0a0ff;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	
+}
+				
+
+
+
+
+
+div.default_TListBox_wrapper
+{
+	
+}
+
+ul.default_TListBox
+{
+	padding-left: 0px;	
+}
+
+ul.default_TListBox li
+{
+	list-style-type: none;
+	padding: 4px;
+	margin: 4px;	
+	cursor: pointer;
+}
+
+ul.default_TListBox li.selected
+{
+	background-color: white;
+	border: 1px solid silver;
+	border-radius: 3px;
+}
+				
+
+div.default_TForm
+{
+	background-color: #dddddd;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #888888;	
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.default_TForm.morph
+{
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */	
+}
+
+div.default_TForm_modal
+{
+	background-color: #888888;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.default_TForm div.default_TForm_caption
+{
+	background-color: #ccccff;
+	height: 22px;
+	border-style: none;
+	border-top-color: white;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-left-color: white;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: white;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 0px 10px #888888;	
+	text-shadow: 0 0 3px #999999;
+}
+
+div.default_TForm a.default_TForm_close
+{
+	display: block;
+	position: absolute;
+	/*background-color: red;*/
+	background: -webkit-linear-gradient(darkorange, orangered);
+	background: -o-linear-gradient(darkorange, orangered);
+	background: -moz-linear-gradient(darkorange, orangered);
+	background: linear-gradient(darkorange, orangered);
+	right: 12px;
+	top: 0px;
+	width: 24px;
+	height: 16px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+div.default_TForm a.default_TForm_resize
+{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	/*border: 1px solid black;*/	
+	width: 16px;
+	height: 16px;
+}
+
+div.default_TForm a.default_TForm_close:hover
+{
+	opacity: 1;
+}
+
+div.default_TForm span.default_TForm_caption
+{
+	display: block;
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	font-weight: bold;
+	color: white;
+}
+			
+div.default_TBevel { border-color: #9999ff; }
+

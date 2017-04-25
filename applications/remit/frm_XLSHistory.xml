@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tfrm_XLSHistory>
+	<Name>frm_XLSHistory</Name>
+	<theme>sale</theme>
+	
+	<Caption>XLS Upload History</Caption>
+	<Left>64</Left>
+	<Top>64</Top>
+	<Width>400</Width>
+	<Height>275</Height>
+	<BorderStyle>bsNone</BorderStyle>
+	<Position>poFillContainer</Position>
+	
+	<TPageControl>
+		<Name>pc_UploadHistory</Name>
+		<Left>0</Left>
+		<Top>16</Top>
+		<Width>820</Width>
+		<Height>528</Height>
+		<CSSClass>required</CSSClass>
+				
+		<TTabSheet>
+			<Name>tab_XLSUpload</Name>
+			<Caption>XLS Uploads</Caption>
+			<Left>0</Left>
+			<Top>16</Top>
+			<Width>820</Width>
+			<Height>528</Height>
+			<CSSClass>required</CSSClass>
+			
+			<TButton>
+				<Name>btn_UploadXLS</Name>
+				<Caption>Upload XLS</Caption>]
+				<Left>24</Left>
+				<Top>28</Top>
+				<OnClick>btn_UploadXLSOnClick</OnClick>
+			</TButton>
+				
+			<TDataGrid>
+				<Name>dg_DataSourceHistory</Name>
+				<Left>24</Left>
+				<Top>80</Top>
+				<Width>960</Width>
+				<Height>256</Height>
+				<ColsCount>5</ColsCount>
+				<RowsCount>5</RowsCount>
+				<FixedCols>1</FixedCols>
+				<FixedRows>1</FixedRows>
+				<RowsPerPage>10</RowsPerPage>
+				<OnFilter>dg_DataSourceHistoryOnFilter</OnFilter>
+			</TDataGrid>
+		</TTabSheet>
+		
+		<TTabSheet>
+			<Name>tab_ARISActivity</Name>
+			<Caption>ARIS Activity</Caption>
+			<Left>0</Left>
+			<Top>16</Top>
+			<Width>820</Width>
+			<Height>528</Height>
+			<CSSClass>required</CSSClass>
+
+			<TDataGrid>
+				<Name>dg_ARISActivity</Name>
+				<Left>24</Left>
+				<Top>40</Top>
+				<Width>960</Width>
+				<Height>256</Height>
+				<ColsCount>5</ColsCount>
+				<RowsCount>5</RowsCount>
+				<FixedCols>1</FixedCols>
+				<FixedRows>1</FixedRows>
+				<RowsPerPage>10</RowsPerPage>
+			</TDataGrid>
+		</TTabSheet>
+
+	</TPageControl>
+					
+</Tfrm_XLSHistory>

@@ -1,0 +1,1 @@
+$this->set("HKEY_LOCAL_MACHINE.Software.Version", 4, false);
